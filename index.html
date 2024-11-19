@@ -17,14 +17,17 @@
             <div class="form-group">
                 <input type="text" id="nombreGasto" placeholder="Nombre del gasto">
                 <input type="number" id="valorGasto" placeholder="Valor del gasto" min="0" step="0.01">
+                <input type="text" id="descripcionGasto" placeholder="Descripción del gasto">
                 <button id="botonFormulario" onclick="clickBoton();">Agregar Gasto</button>
             </div>
-            <ul id="listaDeGastos"></ul>
             <div class="total">
                 Total Mensual: US$ <span id="totalGastos">0.00</span>
             </div>
+            <ul id="listaDeGastos"></ul>
         </div>
     </div>
+    <!--Se agrega el cdn de sweetalert2 con variable global-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/js/script.js"></script>
 </body>
 

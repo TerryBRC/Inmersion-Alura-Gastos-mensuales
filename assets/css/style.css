@@ -34,7 +34,24 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+#botonEliminar{
+    padding: 5px 5px;
+    background-color: #be0f0f;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#botonActualizar{
+    padding: 5px 5px;
+    background-color: yellow;
+    color: black;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 button:hover {
     background-color: #4cae4c;
 }
@@ -54,6 +71,7 @@ ul li {
     border-bottom: 1px solid #eee;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul li:last-child {
